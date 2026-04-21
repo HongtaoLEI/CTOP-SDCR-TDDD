@@ -1,0 +1,140 @@
+xij_k values:
+xij_k[0,3,2] = 1.0
+xij_k[3,11,2] = 1.0
+
+ylir_kv values:
+ylir_kv[0,1,11,2,1] = 1.0
+
+
+
+2 0-3-11 0/0-44/47-91/93 13
+2-1 0-1-11  0/0-22/25-47/* 10
+
+
+
+Dlir_kv values:
+Dlir_kv[0,1,11,2,1] = 5.0
+
+zi values:
+zi[1] = 1.0
+zi[7] = 1.0
+
+pij_k values:
+pij_k[0,1,2] = 1.0
+pij_k[0,2,2] = 1.0
+pij_k[0,3,2] = 1.0
+pij_k[0,4,2] = 1.0
+pij_k[0,5,2] = 1.0
+pij_k[0,6,2] = 1.0
+pij_k[0,7,2] = 1.0
+pij_k[0,8,2] = 1.0
+pij_k[0,9,2] = 1.0
+pij_k[0,10,2] = 1.0
+pij_k[0,11,2] = 1.0
+pij_k[2,1,2] = 1.0
+pij_k[2,3,2] = 1.0
+pij_k[2,4,2] = 1.0
+pij_k[2,5,2] = 1.0
+pij_k[2,7,2] = 1.0
+pij_k[2,8,2] = 1.0
+pij_k[2,11,2] = 1.0
+pij_k[3,1,2] = 1.0
+pij_k[3,11,2] = 1.0
+pij_k[4,1,2] = 1.0
+pij_k[4,3,2] = 1.0
+pij_k[4,5,2] = 1.0
+pij_k[4,7,2] = 1.0
+pij_k[4,11,2] = 1.0
+pij_k[5,1,2] = 1.0
+pij_k[5,3,2] = 1.0
+pij_k[5,11,2] = 1.0
+pij_k[6,1,2] = 1.0
+pij_k[6,2,2] = 1.0
+pij_k[6,3,2] = 1.0
+pij_k[6,4,2] = 1.0
+pij_k[6,5,2] = 1.0
+pij_k[6,7,2] = 1.0
+pij_k[6,8,2] = 1.0
+pij_k[6,9,2] = 1.0
+pij_k[6,11,2] = 1.0
+pij_k[7,1,2] = 1.0
+pij_k[7,3,2] = 1.0
+pij_k[7,5,2] = 1.0
+pij_k[7,11,2] = 1.0
+pij_k[8,1,2] = 1.0
+pij_k[8,3,2] = 1.0
+pij_k[8,4,2] = 1.0
+pij_k[8,5,2] = 1.0
+pij_k[8,7,2] = 1.0
+pij_k[8,11,2] = 1.0
+pij_k[9,1,2] = 1.0
+pij_k[9,2,2] = 1.0
+pij_k[9,3,2] = 1.0
+pij_k[9,4,2] = 1.0
+pij_k[9,5,2] = 1.0
+pij_k[9,7,2] = 1.0
+pij_k[9,8,2] = 1.0
+pij_k[9,11,2] = 1.0
+pij_k[10,1,2] = 1.0
+pij_k[10,2,2] = 1.0
+pij_k[10,3,2] = 1.0
+pij_k[10,4,2] = 1.0
+pij_k[10,5,2] = 1.0
+pij_k[10,6,2] = 1.0
+pij_k[10,7,2] = 1.0
+pij_k[10,8,2] = 1.0
+pij_k[10,9,2] = 1.0
+pij_k[10,11,2] = 1.0
+pij_k[11,1,2] = 1.0
+
+ui_k values:
+ui_k[0,2] = 1.0
+ui_k[1,2] = 12.0
+ui_k[2,2] = 5.0
+ui_k[3,2] = 10.0
+ui_k[4,2] = 7.0
+ui_k[5,2] = 9.0
+ui_k[6,2] = 3.0
+ui_k[7,2] = 8.0
+ui_k[8,2] = 6.0
+ui_k[9,2] = 4.0
+ui_k[10,2] = 2.0
+ui_k[11,2] = 11.0
+Best objective 6.063829787238e-01, best bound 6.063996798903e-01, gap 0.0028%
+18068.670575141907
+
+********* Time Schedule for TRUCK 1 *********
+Node 0 : arrival time : 0.0 -------> departure time : 0.0 (Travel time:22.0)
+Node 6 : arrival time : 22.0 -------> departure time : 25.0 (Travel time:20.0)
+Node 5 : arrival time : 45.0 -------> departure time : 48.0 (Travel time:41.0)
+Node 11 : arrival time : 89.0 -------> departure time : 94.0
+
+
+********* Time Schedule for TRUCK 2 *********
+Node 0 : arrival time : 0.0 -------> departure time : 0.0 (Travel time:44.0)
+Node 3 : arrival time : 44.0 -------> departure time : 47.0 (Travel time:44.0)
+Node 11 : arrival time : 91.0 -------> departure time : 94.0
+
+
+
+---------------------------------------------------------------------------
+
+********** UAV_1_1 sortie #1:[6, 1, 11] **********
+loaded weight : 5.0
+Node 6 : arrival time : 0.0 -------> departure time : 24.0 
+Node 1 : arrival time : 61.0 -------> departure time : 64.0 
+Node 11 : arrival time : 94.0 -------> departure time : 0.0 
+
+
+********** UAV_1_2 sortie #1:[0, 7, 11] **********
+loaded weight : 5.0
+Node 0 : arrival time : 0.0 -------> departure time : 0.0 
+Node 7 : arrival time : 31.0 -------> departure time : 34.0 
+Node 11 : arrival time : 92.0 -------> departure time : 0.0 
+
+
+********** UAV_2_1 sortie #1:[0, 1, 11] **********
+loaded weight : 5.0
+Node 0 : arrival time : 0.0 -------> departure time : 45.0 
+Node 1 : arrival time : 67.0 -------> departure time : 70.0 
+Node 11 : arrival time : 94.0 -------> departure time : 0.0 
