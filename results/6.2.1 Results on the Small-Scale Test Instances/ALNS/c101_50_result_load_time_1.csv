@@ -1,0 +1,8 @@
+mean_optimal_obj,mean_iter_num,mean_same_num,mean_insert_weight,mean_remove_weight,mean_init_obj,mean_All_Time,obj_std,best_obj,worst_obj,mean_improvement,init_obj_std,init_best_obj,init_worst_obj,obj_list,init_obj_list,mean_truck_load,mean_truck_time,mean_drone_load,mean_drone_time,mean_drone_load_full,mean_drone_used,truck_load_list,truck_time_list,sol
+3.061224489795918,1266.0,1001.0,"[7.7252435744261865, 7.661094247767808, 7.204555370584016, 7.280342488837369, 8.349861156228545, 8.316518101820431]","[8.212637895869419, 7.193702648836355, 7.815326695555302, 7.07316714255473, 8.0243142332612]",1.320754716981132,661.0557391643524,0.0,3.061224489795918,3.061224489795918,1.3177842565597668,0.0,1.320754716981132,1.320754716981132,[3.06122449],[1.32075472],260.0,95.25,80.0,60.0,96.0,1.0,"[60, 90, 60, 50]","[97.0, 88.0, 98.0, 98.0]","[[[0, 5, 3, 6, 8, 51], [0, 23, 21, 25, 22, 51], [0, 2, 4, 7, 51], [0, 28, 26, 27, 24, 51]], array([[list([[0, 13, 51]]), list([[0, 13, 51]]), list([[0, 13, 51]])],
+       [list([]), list([]), list([])],
+       [list([[0, 13, 51]]), list([[2, 1, 4], [0, 46, 51]]),
+        list([[0, 1, 2]])],
+       [list([[0, 46, 24], [24, 20, 51]]),
+        list([[0, 46, 24], [24, 20, 51]]), list([[0, 46, 24]])]],
+      dtype=object)]"
